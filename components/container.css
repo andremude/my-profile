@@ -1,0 +1,85 @@
+.container {
+    width: 900px; 
+    margin: 40px auto; 
+}
+
+@media (max-width: 992px) {
+    .container {
+        width: 700px;
+    }
+}
+
+@media (max-width: 976px) {
+    .container {
+        width: 500px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 300px;
+    }
+}
+
+.card-white { 
+    background-color: white;
+    text-align: center; 
+    margin: 30px; 
+    padding: 50px; 
+    box-shadow: 10px 5px 5px #FF4848;
+    border-radius: 10px;
+}
+
+.card-white:hover { 
+    background-color: rgba(255, 255, 255, 0.692);
+}
+
+#profile-picture {
+    width: 200px; 
+    border-radius: 50%;
+}
+
+#webdev-pic { 
+    width: 200px;
+    height: 200px; 
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#cycling-pic { 
+    width: 200px;
+    height: 200px; 
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#trekking-pic { 
+    width: 200px;
+    height: 200px; 
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.list-inline li {
+    display: inline;
+}
+/* El display:inline se aplica a los li no al contenedor*/
+
+.list-inline { 
+padding-left: 0px;
+}
+
+.list-inline i { 
+    font-size: 40px;
+    padding: 15px; 
+    color: rgb(21, 44, 114);
+}
+
+.list-inline i:hover {
+    color:rgb(165, 112, 112)
+}
+
+p {
+    text-align: justify;
+    font-size: 18px;
+}
